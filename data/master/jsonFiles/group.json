@@ -1,0 +1,46 @@
+[
+
+	{
+		"_id"							: ObjectId("A20484567892345678900001"),
+
+		"name"						: "Admin Group",
+		"description"				: "Users who have privileged rights and who has access to modify the content of the application, adding, deleting users etc ",
+		"users"						:
+		[
+			ObjectId("A20474567892345678900001")
+		]
+	},
+
+	{
+		"_id"							: ObjectId("A20484567892345678900002"),
+
+		"name"						: "Power Users Group",
+		"description"				: "Users who belong to Power Users Group",
+		"users"						:
+		[
+			ObjectId("A20474567892345678900002")
+		]
+	},
+
+	{
+		"_id"							: ObjectId("A20484567892345678900003"),
+
+		"name"						: "Users Group",
+		"description"				: "Users who belong to Normal Users Group",
+		"users"						:
+		[
+			ObjectId("A20474567892345678900003")
+		]
+	},
+
+	{
+		"_id"							: ObjectId("A20484567892345678900004"),
+
+		"name"						: "Guest Group",
+		"description"				: "Users who belong to Guest Group",
+		"users"						:
+		[
+			ObjectId("A20474567892345678900004")
+		]
+	}
+]

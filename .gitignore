@@ -11,8 +11,8 @@ pids
 logs
 results
 
-libs
-uploads/profilePics
+public/libs
+public/uploads/profilePics
 
 npm-debug.log
 node_modules

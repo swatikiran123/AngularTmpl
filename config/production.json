@@ -1,0 +1,37 @@
+{
+  "auth": {
+    "secret": "top secret"
+  },
+
+  "profile":{
+    "default-pwd": "default"
+  },
+
+  "api": {
+    "cors": "true"
+  },
+
+  "logging": {
+    "log-level": "debug"
+  },
+
+  "sessions": {
+    "secret": "session top secret"
+  },
+
+	"assets":{
+		"mode": "prod"
+	},
+
+  "email": {
+    "smtp-options":{
+      "service": "gmail",
+      "auth": {
+          "user": "xxx@gmail.com",
+          "pass": "xxxxx"
+      }
+    },
+    "send-mails": "false"
+  }
+
+}
